@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Verdana', sans-serif;
+}
+
+body {
+     background: #d3d3d3;
+}
+
+h2 {
+    font-weight: 100;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+#todoWrapper {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2%;
+     background: #ffffff;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#todoWrapper div {
+    width: 60%;
+    margin: 0 auto;
+}
+
+button {
+    min-width: 100px;
+    height: 30px;
+}
+
+.taskCompleted {
+    text-decoration: line-through;
+}
+
+input {
+    height: 40px;
+    line-height: 100%;
+    width: 100%;
+    margin: 10px 1%;
+}
+
+ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+i {
+    padding: 10px;
+    cursor: pointer;
+}
